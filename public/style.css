@@ -97,9 +97,9 @@ body {
     width: 200px;
 }
 button {
-    white-space: nowrap;
-    padding: 3px;
-    border-radius: 5px;
+   
+    
+    height: max-content;
 }
 .deleteButton {
     background-color: rgb(205, 70, 70);

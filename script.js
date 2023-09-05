@@ -201,11 +201,10 @@ async function loadGames() {
                     const editBtn = document.createElement("button");
                     editBtn.setAttribute("class", "btn btn-success");
                     editBtn.textContent = "Atualizar";
-
                     div.appendChild(deleteBtn);
                     div.appendChild(editBtn);
 
-                    itemList.innerHTML = `${index + 1}-  ${game.title} $${game.price}`;
+                    itemList.innerHTML = `${index + 1}. <br/> Título: ${game.title}, <br/> Preço: $${game.price}, <br/>Ano: ${game.year}`;
 
                     itemList.appendChild(div);
 
